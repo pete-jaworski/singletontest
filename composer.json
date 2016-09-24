@@ -4,8 +4,7 @@
     "license": "MIT",
     
     "require": {
-        "gears/string": "^0.6.0",
-        "piotrjaworski/singletontest": "2.9.*"
+        "gears/string": "^0.6.0"
     }
 
 }
