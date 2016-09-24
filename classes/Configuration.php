@@ -8,12 +8,12 @@ class Configuration
     private function __clone(){}
     
     private static $instance = null;
-    private $conf = array("url" => "http://www.onet.pl");
+    private $conf = array("url" => "http://www.onet.pl", 'image' => "Mona Lisa");
     
     
     public static function getInstance()
     {
-        if(empty(self::instance)){
+        if(empty(self::$instance)){
             self::$instance = new Configuration();
         }
         
